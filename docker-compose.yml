@@ -1,7 +1,7 @@
 version: '3'
 services:
   server:
-    image: gocd/gocd-server:v18.2.0
+    image: gocd/gocd-server:v19.2.0
     ports:
       - "8153:8153"
       - "8154:8154"
